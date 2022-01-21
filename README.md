@@ -27,7 +27,4 @@ You should see the following output:
 [info] Succesfully subscribed to hello/request!
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/elixir_solace](https://hexdocs.pm/elixir_solace).
 
