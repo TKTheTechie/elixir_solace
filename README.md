@@ -1,6 +1,6 @@
 # Elixir-Solace
 
-This project demonstrates integration between Elixir and the [Solace PubSub+ Event Broker](https://www.solace.com). This repo is a 
+This project demonstrates integration between Elixir and the [Solace PubSub+ Event Broker](https://www.solace.com). 
 
 The project implements a workflow as follows:
 
