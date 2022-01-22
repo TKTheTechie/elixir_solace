@@ -1,6 +1,6 @@
 # Elixir-Solace
 
-This project demonstrates integration between Elixir and the [Solace PubSub+ Event Broker](https://www.solace.com).
+This project demonstrates integration between Elixir and the [Solace PubSub+ Event Broker](https://www.solace.com). This repo is a 
 
 The project implements a workflow as follows:
 
@@ -25,6 +25,17 @@ You should see the following output:
 [info] Succesfully connected!
  
 [info] Succesfully subscribed to hello/request!
+```
+
+5. Start a new shell (while the previous one is still running) and run the following command:
+```
+  $ iex -S mix
+  iex(1)> Solace.Hello.Requestor.start_connection
+  iex(2)> Solace.Helllo.Requestor.send_request
+```
+If your first shell is still running, you should see the following output:
+```
+[info] Hello World!
 ```
 
 
